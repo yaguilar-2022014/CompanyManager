@@ -1,0 +1,392 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CompanyManager",
+    "dateExported": "2024-03-04T05:50:12.793Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-03T07:14:10.880Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "9a21b160-0f12-4d58-93d6-3652bc81cbae",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-03-03T20:56:36.644Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "bf8045e5-8139-4aa9-9e48-ab66b3596d0b",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-04T01:51:23.475Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListCompanies",
+            "containerId": "9a21b160-0f12-4d58-93d6-3652bc81cbae",
+            "created": "2024-03-04T04:46:57.369Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "2b636303-8aa5-4878-9672-52686e72af46",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "test",
+            "url": "user/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-03T07:14:17.400Z",
+            "modified": "2024-03-03T21:32:53.804Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZTMzMDE2NTcyMTVmMjZhOTkzODQiLCJ1c2VybmFtZSI6InlhZ3VpbGFyIiwibmFtZSI6IlllcmljayIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTUwMTU2NCwiZXhwIjoxNzA5NTEyMzY0fQ.60YRA9JICISl6ElBDcft_GNzEBYvbjLSaBY0Ye0uhSc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0bbf2939-d913-44d6-b915-a60cd029f5f2",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListCompany",
+            "url": "company/list",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-04T04:25:21.170Z",
+            "modified": "2024-03-04T04:25:54.912Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10959441-99c3-4251-abf5-68962d4a2572",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "Regist",
+            "url": "user/regist",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T19:59:35.727Z",
+            "modified": "2024-03-03T20:00:32.702Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Yerick"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Aguilar"
+                    },
+                    {
+                        "name": "username",
+                        "value": "IceKry"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3790ab94-c608-483a-ba3f-fdcba4f04a6d",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "Delete",
+            "url": "user/delete/65e4d6e08906d53e2d56b594",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-03T20:15:19.015Z",
+            "modified": "2024-03-03T21:34:16.155Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZTMzMDE2NTcyMTVmMjZhOTkzODQiLCJ1c2VybmFtZSI6InlhZ3VpbGFyIiwibmFtZSI6IlllcmljayIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTUwMTU2NCwiZXhwIjoxNzA5NTEyMzY0fQ.60YRA9JICISl6ElBDcft_GNzEBYvbjLSaBY0Ye0uhSc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "80b3a3e7-669e-496d-8d17-68fee7ee516e",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "Update",
+            "url": "user/update/65e4e3301657215f26a99384",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-03T20:25:49.975Z",
+            "modified": "2024-03-03T20:53:37.610Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Yerick"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Aguilar"
+                    },
+                    {
+                        "name": "username",
+                        "value": "yaguilar"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2ee85be6-d35c-456b-be9d-d88dfebf56fd",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "List",
+            "url": "user/list",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-03T20:55:32.324Z",
+            "modified": "2024-03-03T21:34:38.955Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZTMzMDE2NTcyMTVmMjZhOTkzODQiLCJ1c2VybmFtZSI6InlhZ3VpbGFyIiwibmFtZSI6IlllcmljayIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTUwMTU2NCwiZXhwIjoxNzA5NTEyMzY0fQ.60YRA9JICISl6ElBDcft_GNzEBYvbjLSaBY0Ye0uhSc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fb78a905-acae-4acc-a74b-473a423e8278",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "cda8aa3a-8f4c-41d9-94a3-790b0355d6e0",
+            "name": "Login",
+            "url": "user/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-03T21:20:41.095Z",
+            "modified": "2024-03-03T21:21:19.248Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "yaguilar"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7730eb99-482a-4dde-8808-66a72326173c",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "bf8045e5-8139-4aa9-9e48-ab66b3596d0b",
+            "name": "test",
+            "url": "category/test",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-04T01:51:30.626Z",
+            "modified": "2024-03-04T01:51:40.990Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "60bc74c1-f10f-4175-99b4-fc0d9aa2f6e8",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "bf8045e5-8139-4aa9-9e48-ab66b3596d0b",
+            "name": "AddCategory",
+            "url": "category/add",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-04T01:56:48.925Z",
+            "modified": "2024-03-04T04:27:47.793Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Technology"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Category for Manufacture Technology"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "902c9c5f-09f8-4fca-b585-8ff41c032819",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "9a21b160-0f12-4d58-93d6-3652bc81cbae",
+            "name": "test",
+            "url": "company/test",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-04T02:24:02.810Z",
+            "modified": "2024-03-04T02:24:09.812Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "91c735ab-b787-4144-baa4-a79f376a9d03",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "9a21b160-0f12-4d58-93d6-3652bc81cbae",
+            "name": "AddCompany",
+            "url": "company/add",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-03-04T02:28:03.498Z",
+            "modified": "2024-03-04T05:33:48.852Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "pepe"
+                    },
+                    {
+                        "name": "impact",
+                        "value": "HIGH"
+                    },
+                    {
+                        "name": "trajectory",
+                        "value": "15"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e52c4a2df51083238cacc7"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c3996ebd-41ac-4d26-be68-55f7a358a970",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "bf8045e5-8139-4aa9-9e48-ab66b3596d0b",
+            "name": "DeleteCategory",
+            "url": "category/delete/65e54e925d0a1e4d1e8e0ef1",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-03-04T02:37:46.284Z",
+            "modified": "2024-03-04T04:31:40.747Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a470940b-b179-4419-ad61-79131c0901ad",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListAsc",
+            "url": "company/listAsc",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-03-04T04:47:13.913Z",
+            "modified": "2024-03-04T04:47:25.383Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "15298de1-ec52-446a-8c79-12b591d3055e",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListDesc",
+            "url": "company/listDesc",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-03-04T04:47:38.671Z",
+            "modified": "2024-03-04T04:47:48.466Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8c8eb5c9-bf14-410c-a747-98e0787b8e11",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListByTrajectoryYears",
+            "url": "company/listTrajectory",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-03-04T04:48:03.231Z",
+            "modified": "2024-03-04T04:49:16.373Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "trajectory",
+                        "value": "10"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2ac34cf2-81d0-4e33-8f5f-2fb6405f70a2",
+            "colId": "2bde5e17-0840-459f-b286-72e4f6ba65e1",
+            "containerId": "56f18d13-38c9-4487-b6ec-75f50d465732",
+            "name": "ListByCategory",
+            "url": "company/listCategory",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-03-04T04:59:32.835Z",
+            "modified": "2024-03-04T05:07:34.133Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "65e55010b99b887aeaa60478"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880/"
+        }
+    }
+}
